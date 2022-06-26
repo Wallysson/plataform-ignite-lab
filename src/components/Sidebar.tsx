@@ -1,5 +1,6 @@
 import { gql, useQuery } from "@apollo/client";
 import { Lesson } from "./Lesson";
+import classNames from 'classnames'
 
 const GET_LESSONS_QUERY = gql`
   query {
@@ -13,6 +14,10 @@ const GET_LESSONS_QUERY = gql`
   }
 `
 
+interface SidebarProps {
+  open: boolean;
+}
+
 interface GetLessonsQueryResponse {
   lessons: {
     id: string
@@ -23,12 +28,12 @@ interface GetLessonsQueryResponse {
   }[]
 }
 
-export function Sidebar() {
+export function Sidebar({ open }: SidebarProps) {
   const { data } = useQuery<GetLessonsQueryResponse>(GET_LESSONS_QUERY) 
   console.log(data)
 
   return (
-    <aside className="w-[348px] bg-gray-700 p-6 border-l border-gray-600">
+    <aside className={`w-full h-full absolute overflow-y-auto z-50 ${open ? '' : 'hidden'} bg-gray-700 p-6 border-l border-gray-600 lg:w-[348px] lg:relative lg:h-auto lg:block`}>
       <span
         className="font-bold text-2xl pb-6 mb-6 border-b border-gray-500 block"
       >
