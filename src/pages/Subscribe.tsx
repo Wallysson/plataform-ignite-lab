@@ -11,6 +11,8 @@ const CREATE_SUBSCRIBER_MUTATION = gql`
   }
 `
 
+import codePrint from '../assets/code.png'
+
 export function Subscribe() {
   const navigate = useNavigate()
 
@@ -73,7 +75,7 @@ export function Subscribe() {
       </div>
       <img 
         className='mt-4 lg:mt-0'
-        src='/src/assets/code.png' alt="Imagem Código" 
+        src={codePrint} alt="Imagem Código" 
       />
     </div>
   )
