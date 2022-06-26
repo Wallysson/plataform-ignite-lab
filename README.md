@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 </p>
 
-# 💻 IgniteLab-02
+# 💻 Plataforma Ignite Lab
 
 Projeto feito na semana do Ignite Lab da @rocketseat. O projeto tinha que criar um página home onde o usuário cadastra o email e vai direto para a tela de Eventos.
 Foram utilizados: ReactJS, Tailwind, Graphql, Apollo, TypeScript, Deploy Vercel
