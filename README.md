@@ -28,6 +28,42 @@ Foram utilizados: ReactJS, Tailwind, Graphql, Apollo, TypeScript, Deploy Vercel
 - Menu dropdown na header para dispositivos mobiles. ✔️
 
 # Previews
+<div align="center">
+  <p align="center">
+    <figure>
+      <img src="src/assets/print-tela-inicial.PNG" alt="Tela Inicial Ignite Lab" width="100%">
+      <figcaption>Tela inicial do Ignite Lab</figcaption>
+    </figure>
+  </p>
 
-<!-- ![image]()
-![image]() -->
+  <p>
+    <figure>
+      <img src="src/assets/print-tela-inicial-responsivo.PNG" alt="Tela Inicial Ignite Lab" width="35%">
+      </br>
+      <figcaption>Tela inicial do Ignite Lab</figcaption>
+      </figure>
+  </p>
+  
+  <p>
+    <figure>
+      <img src="src/assets/print-eventos.PNG" alt="Tela Eventos Ignite Lab" width="100%">
+      </br>
+      <figcaption>Eventos do Ignite Lab</figcaption>
+      </figure>
+  </p>
+  
+   <p>
+    <figure>
+      <img src="src/assets/print-eventos-responsividade.PNG" alt="Tela Inicial Ignite Lab versão Mobile" width="35%">
+      </br>
+      <figcaption>Versão mobile da tela de eventos</figcaption>
+      </figure>
+  </p>
+  <p>
+    <figure>
+      <img src="src/assets/print-eventos-menu.PNG" alt="Menu versão Mobile" width="35%">
+      </br>
+      <figcaption>Versão mobile do menu</figcaption>
+      </figure>
+  </p>
+</div>
