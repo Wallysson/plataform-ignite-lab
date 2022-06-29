@@ -6,7 +6,7 @@
 # 💻 Plataforma Ignite Lab
 
 Projeto feito na semana do Ignite Lab da @rocketseat. O projeto tinha que criar um página home onde o usuário cadastra o email e vai direto para a tela de Eventos.
-Foram utilizados: ReactJS, Tailwind, Graphql, Apollo, TypeScript, Deploy Vercel
+Foram utilizados: ReactJS, Tailwind, Graphql, Apollo, TypeScript, Deploy Vercel.
 
 - <a href="https://plataform-ignite-lab.vercel.app/" target="_blank">Deploy (Vercel)</a>
 - <a href="https://www.figma.com/file/tIqkWLqWDJqCEM6bVNu8xe/Plataforma-de-evento---Ignite-Lab-(Community)?node-id=0%3A1" target="_blank">Layout Figma</a>
