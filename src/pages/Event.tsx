@@ -3,6 +3,7 @@ import { Header } from "../components/Header";
 import { useEffect, useState } from 'react';
 import { Sidebar } from "../components/Sidebar";
 import { Video } from "../components/Video";
+import { Footer } from "../components/Footer";
 
 export function Event() {
   const { slug } = useParams<{ slug: string }>()
@@ -21,7 +22,8 @@ export function Event() {
       <Header open={mobileMenuOpen} toggleOpen={handleToggleMobileMenuOpen} />
       <main className="flex flex-1 flex-col lg:flex-row">
         { slug ? <Video lessonSlug={slug}/> : <div className="flex-1"/> }
-        <Sidebar open={mobileMenuOpen} />  
+        <Sidebar open={mobileMenuOpen} />
+
       </main>
     </div>
   )

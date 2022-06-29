@@ -26,7 +26,7 @@ Foram utilizados: ReactJS, Tailwind, Graphql, Apollo, TypeScript, Deploy Vercel.
 
 - Responsividade no projeto. ✔️
 - Menu dropdown na header para dispositivos mobiles. ✔️
-- Criar footer nas páginas. ⏳
+- Criar footer nas páginas. ✔️
 
 # Previews
 
@@ -35,4 +35,3 @@ Foram utilizados: ReactJS, Tailwind, Graphql, Apollo, TypeScript, Deploy Vercel.
       <img src="src/assets/github-preview.png" width="100%">
     </figure>
   </p>
-

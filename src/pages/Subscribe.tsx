@@ -12,6 +12,7 @@ const CREATE_SUBSCRIBER_MUTATION = gql`
 `
 
 import codePrint from '../assets/code.png'
+import { Footer } from "../components/Footer";
 
 export function Subscribe() {
   const navigate = useNavigate()
@@ -35,6 +36,7 @@ export function Subscribe() {
   }
 
   return (
+    <>
     <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center p-4 overflow-hidden">
       <div className="w-full max-w-[1100px] flex flex-col lg:flex-row items-center justify-between mt-10 lg:mt-20 mx-auto">
         <div className="max-w-[640px] flex flex-col items-center lg:block">
@@ -77,6 +79,8 @@ export function Subscribe() {
         className='mt-4 lg:mt-0'
         src={codePrint} alt="Imagem Código" 
       />
-    </div>
+    </div>  
+    <Footer />
+    </>
   )
 }
